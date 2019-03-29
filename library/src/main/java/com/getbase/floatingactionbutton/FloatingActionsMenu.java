@@ -113,6 +113,10 @@ public class FloatingActionsMenu extends ViewGroup {
     mListener = listener;
   }
 
+  public AddFloatingActionButton getAddFloatingActionButton() {
+    return mAddButton;
+  }
+
   private boolean expandsHorizontally() {
     return mExpandDirection == EXPAND_LEFT || mExpandDirection == EXPAND_RIGHT;
   }
